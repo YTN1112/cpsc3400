@@ -1,0 +1,19 @@
+# Terminals
+x
+y
+z
+
+# Nonterminals
+S
+A
+B
+C
+
+# Start symbol
+S
+
+# Production rules
+S -> A
+A ->  Axz | B
+B -> Bz | Bzy | Bxx | C
+C -> Bz | Bzy | Bxx | ' '
